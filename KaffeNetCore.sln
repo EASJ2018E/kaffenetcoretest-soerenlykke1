@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaffeNetCore", "KaffeNetCore\KaffeNetCore.csproj", "{E2BC9E6D-2D02-4D33-AC43-C2356807425C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaffeNetCore.Test", "KaffeNetCore.Test\KaffeNetCore.Test.csproj", "{42A8BE2B-C961-4DC5-B3FD-998C6C6D5558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E2BC9E6D-2D02-4D33-AC43-C2356807425C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2BC9E6D-2D02-4D33-AC43-C2356807425C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2BC9E6D-2D02-4D33-AC43-C2356807425C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A8BE2B-C961-4DC5-B3FD-998C6C6D5558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A8BE2B-C961-4DC5-B3FD-998C6C6D5558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A8BE2B-C961-4DC5-B3FD-998C6C6D5558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A8BE2B-C961-4DC5-B3FD-998C6C6D5558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
