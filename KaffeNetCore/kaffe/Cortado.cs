@@ -23,7 +23,24 @@ namespace kaffe
         /// <returns></returns>
         public override int Pris()
         {
-            return 25;
+            int prisMedRabat = 25 - Rabat;
+
+            if (prisMedRabat <= 0)
+            {
+                throw new ArgumentException("Too much rabat man, way too much");
+            }
+
+            return prisMedRabat;
+        }
+
+        public Cortado() : base()
+        {
+            
+        }
+
+        public Cortado(int rabat) : base(rabat)
+        {
+            
         }
     }
 }
