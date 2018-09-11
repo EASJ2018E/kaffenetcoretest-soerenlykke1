@@ -2,6 +2,7 @@ using System;
 using kaffe;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using KaffeNetCore;
+using KaffeNetCore.kaffe;
 
 namespace KaffeNetCore.Test
 {
@@ -48,6 +49,19 @@ namespace KaffeNetCore.Test
 
             // Assert
             Assert.Fail();
+        }
+
+        [TestMethod]
+        public void FlatWhiteStyrkeTest()
+        {
+            // Arrage
+            FlatWhite testFlatWhite = new FlatWhite();
+
+            // Act
+            var result = testFlatWhite.Styrke();
+
+            // Assert
+            Assert.AreEqual("Mild", result);
         }
     }
 }
