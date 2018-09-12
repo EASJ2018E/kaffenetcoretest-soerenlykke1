@@ -63,5 +63,18 @@ namespace KaffeNetCore.Test
             // Assert
             Assert.AreEqual("Mild", result);
         }
+
+        [TestMethod]
+        public void FlatWhiteMælkTest()
+        {
+            // Arrage
+            FlatWhite testFlatWhite = new FlatWhite();
+
+            // Act
+            var result = testFlatWhite.MlMælk();
+
+            // Assert
+            Assert.AreEqual(160,result);
+        }
     }
 }
